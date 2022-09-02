@@ -17,15 +17,15 @@
 int main(int argc, char ** argv )
 {
 #ifdef _OPENMP
-	InitializeOpenMP(argv);
+  InitializeOpenMP(argv);
 #endif
-	Simulation * two_dim_Euler_Solver = new Simulation();
+  Simulation * two_dim_Euler_Solver = new Simulation();
+	
+  two_dim_Euler_Solver->Run();
 
-	two_dim_Euler_Solver->Run();
+  delete two_dim_Euler_Solver;
 
-	delete two_dim_Euler_Solver;
-
-	return 0;
+  return 0;
 }
 
 void Simulation::Run()
