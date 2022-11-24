@@ -80,7 +80,7 @@ void Spatial_Derivative::Spatial_Derivative_X()
 			rhs[i][j] = rhsVector;
 		}
 	}
-}
+} 
 
 void Spatial_Derivative::Spatial_Derivative_Y()
 {
