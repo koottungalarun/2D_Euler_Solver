@@ -1,9 +1,6 @@
 //////////////////////////////////////////////////////////
 //														//
-//			2D Euler Solver on Structured Grid			//
-//					by Wang Nianhua						//
-//				Email: nianhuawong@126.com				//
-//					   2021.6.7							//
+//			2D Euler Solver on Structured Grid						//
 //////////////////////////////////////////////////////////
 #include "2D_Euler_Solver.h"
 #include "Spatial_Derivative.h"
